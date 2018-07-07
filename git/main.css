@@ -1,0 +1,133 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+main {
+	height:644px;
+}
+
+main nav ul {
+	padding:20px;
+	text-align:left;
+	display:inline-block;
+	font-family:arial, sans-serif;
+	font-size:13px;
+}
+
+main nav ul li {
+	display:inline-block;
+	margin-left:15px;
+}
+
+#main-nav-right {
+	float:right;
+	margin-right:15px;
+}
+
+li a {
+	text-decoration:none;
+	color:rgba(0,0,0,.87);
+}
+
+#bell {
+	border-radius:100%;
+	background:rgb(115,115,115) url("../bell.png");
+	content:0 notifications;
+}
+
+div#content {
+	position:absolute;
+	top:10px;
+	width:100%;
+	margin:150px auto 0 auto;
+	text-align:center;
+}
+
+#text-search {
+	max-width:484px;
+	height:44px;
+	margin:30px auto 10px auto;
+	border-radius:2px;
+	border:1px solid hsl (0,0%,85%);
+	box-shadow:0 2px 2px 0 rgba(0,0,0,.16),0 0 0 1px rgba(0,0,0,.08);
+}
+
+#text-input {
+	padding-left:16px;
+	height:100%;
+	width:90%;
+	float:left;
+	border:none;
+	font-size:16px;
+	font-family:arial,sans-serif;
+}
+
+#text-input:focus {
+	outline:none;
+}
+
+#mic-img img {
+	height:25px;
+	width:25px;
+}
+
+#mic-img {
+	display:inline-block;
+	float:right;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+.submit {
+	height:36px;
+	line-height:16px;
+	margin:20px 4px 0 4px;
+	color: rgb(117,117, 117);
+	background-color:rgb(245,245,245);
+	padding:0 16px;
+	font-weight:bold;
+	font-size:13px;
+	min-width:54px;
+	border:none;
+	border-radius:2px;
+	font-family:arial,sans-serif;
+}
+
+.submit:hover {
+	border:1px solid rgb(200,200,200);
+	box-shadow:1 1px 1px rgba(0,0,0.1);
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:rgb(242,242,242);
+	line-height:40px;
+	color:rgba(0,0,0,.54);
+	font-family:arial, sans-serif;
+}
+
+footer p{
+	border-top:1px solid rgb(228,228,228);
+	border-bottom:1px solid rgb (228,228,228);
+	padding-left:30px;
+}
+
+footer nav ul {
+	text-align:left;
+	display:inline-block;
+	font-size:13px;
+}
+
+#footer-nav-right {
+	margin-right:20px;
+	float:right;
+}
+
+footer nav ul li {
+	margin-left:20px;
+	display:inline-block;
+}
